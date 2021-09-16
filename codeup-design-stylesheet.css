@@ -1,0 +1,140 @@
+
+    html, body {
+        background: lightgray;
+    }
+
+    #nav-bar h2 {
+        font-family: "Abel";
+    }
+
+
+    .nav-link {
+        color: black;
+    }
+
+    .logo-main {
+        margin-top: 30px
+    }
+
+    h2 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 2.4rem;
+    }
+
+    ul {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    ul li {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    #header {
+        font-family: "Anton";
+    }
+
+    p {
+        font-size: small;
+    }
+
+    #header h2 {
+        margin-top: 30px;
+    }
+
+    #header h3 {
+        margin-top: 30px;
+    }
+
+    #upperCircle {
+        margin-top: 30px;
+        margin-left: 5px;
+        font-size: large;
+        color: white;
+
+    }
+
+    #upperCircle div {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(246, 91, 86, 0.98);
+        border: .2em solid white;
+        /*border-color: white;*/
+
+    }
+
+    #upperCircle div:nth-child(2) {
+        width: 105px;
+        height: 105px;
+        margin-left: 25px;
+        background-color: rgba(222, 160, 61, 0.98);
+    }
+
+    #lowerCircle {
+        margin-top: 25px;
+        margin-left: 5px;
+        color: white;
+    }
+
+
+    #lowerCircle div {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(124, 176, 108, 0.98);
+        border: .2em solid white;
+    }
+
+
+    #lowerCircle div:nth-child(2) {
+        width: 105px;
+        height: 105px;
+        margin-left: 25px;
+        background-color: rgba(0, 171, 169, 0.98);
+    }
+
+    .rounded-circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #smallCircle {
+        display: flex;
+        margin-left: auto;
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    #smallCircle div {
+        height: 18px;
+        width: 18px;
+        background-color: rgba(246, 91, 86, 0.98);
+    }
+
+    #smallCircle div:nth-child(2) {
+        height: 18px;
+        width: 18px;
+        background-color: rgba(222, 160, 61, 0.98);
+        margin-left: 5px;
+    }
+
+    #smallCircle div:nth-child(3) {
+        height: 18px;
+        width: 18px;
+        background-color: rgba(124, 176, 108, 0.98);
+        margin-left: 5px;
+    }
+
+    #smallCircle div:nth-child(4) {
+        height: 18px;
+        width: 18px;
+        background-color: rgba(0, 171, 169, 0.98);
+        margin-left: 5px;
+    }
+
+    @media (max-width: 576px) {
+
+    }
