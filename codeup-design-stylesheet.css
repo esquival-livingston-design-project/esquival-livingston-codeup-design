@@ -1,9 +1,15 @@
 html, body {
-    background: lightgray;
+    background-color: rgba(226,223,230,0.50);
 
 }
 
+.bg-light {
+    padding: 25px;
+}
 
+.logo {
+    position: absolute;
+}
 #nav-bar h2 {
     font-family: "Abel";
 }
@@ -22,6 +28,7 @@ h2 {
     justify-content: center;
     width: 100%;
     font-size: 2.4rem;
+    margin-top: 20px;
 }
 
 ul {
@@ -100,34 +107,39 @@ p {
     align-items: center;
 }
 
-#smallCircle {
+hr {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.smallCircle {
     display: flex;
     margin-left: auto;
     font-size: 10px;
     font-weight: bold;
 }
 
-#smallCircle div {
+.smallCircle div {
     height: 18px;
     width: 18px;
     background-color: rgba(246, 91, 86, 0.98);
 }
 
-#smallCircle div:nth-child(2) {
+.smallCircle div:nth-child(2) {
     height: 18px;
     width: 18px;
     background-color: rgba(222, 160, 61, 0.98);
     margin-left: 5px;
 }
 
-#smallCircle div:nth-child(3) {
+.smallCircle div:nth-child(3) {
     height: 18px;
     width: 18px;
     background-color: rgba(124, 176, 108, 0.98);
     margin-left: 5px;
 }
 
-#smallCircle div:nth-child(4) {
+.smallCircle div:nth-child(4) {
     height: 18px;
     width: 18px;
     background-color: rgba(0, 171, 169, 0.98);
@@ -135,7 +147,16 @@ p {
 }
 
 
+
 @media screen and (min-width:576px) {
+    ul {
+    margin-right: 50px;
+
+    }
+
+    .bg-light {
+        padding: 10px;
+    }
 
 }
 /*     #nav-item #nav-link {*/
