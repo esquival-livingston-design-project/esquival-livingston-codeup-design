@@ -198,10 +198,99 @@ hr {
 /*}*/
 
 
-@media screen and (min-width:768px) { /* ... */ }
+@media screen and (min-width:768px) {
+    .selected-work {
+        text-align: left;
+        font-family: "Abel";
+    }
+    .logo {
+        /*margin-right: 650px;*/
+        transform: translate(-300%, 0%);
+    }
+
+    #nav-bar h2 {
+        margin-right: 300px;
+        margin-top: -30px;
+    }
+
+    .med-nav {
+        margin-left: 450px;
+    }
+
+    .med-nav li{
+        list-style: none;
+        float: left;
+    }
+
+    .bg-light {
+        padding: 3px;
+    }
+
+    .featured {
+        text-align: left;
+        font-family: "Abel";
+    }
+
+    .rounded-circle {
+        float: left;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #mid-view-lg-circles {
+        margin-top: 30px;
+        font-size: large;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+
+    #mid-view-lg-circles div {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(246, 91, 86, 0.98);
+        border: .2em solid white;
+        margin-left: 200px;
+        /*border-color: white;*/
+    }
+
+    #mid-view-lg-circles div:nth-child(2) {
+        width: 105px;
+        height: 105px;
+        margin-left: 25px;
+        background-color: rgba(222, 160, 61, 0.98);
+    }
+
+    #mid-view-lg-circles div:nth-child(3) {
+        width: 105px;
+        height: 105px;
+        background-color: rgba(124, 176, 108, 0.98);
+        border: .2em solid white;
+        margin-left: 25px;
+    }
+
+    #mid-view-lg-circles div:nth-child(4) {
+        width: 105px;
+        height: 105px;
+        margin-left: 25px;
+        background-color: rgba(0, 171, 169, 0.98);
+    }
+    .med-title {
+        font-family: "Abel";
+        margin-right: auto;
+        margin-left: 150px;
+        margin-top: -70px;
+    }
+
+    .nav-link {
+        padding: 5px;
+    }
+}
 
 
 @media screen and (min-width:992px) { /* ... */ }
 
 
-@media screen and (min-width:1200px) { /* ... */ }
