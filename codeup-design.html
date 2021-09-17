@@ -20,25 +20,42 @@
     <div class="row center-block text-center">
         <div class="logo-main">
             <div class="navbar col-12 bg-light justify-content-center w-100">
-                    <ul class="upperli d-flex justify-content-flex-start">
-                        <li class="nav-item  d-none d-sm-block d-xl-block">
-                            <a class="nav-link" href="#">SERVICES</a>
-                        </li>
-                        <li class="nav-item d-none d-sm-block d-xl-block">
-                            <a class="nav-link" href="#">WORK</a>
-                        </li>
-                    </ul>
+                <ul class="upperli d-flex justify-content-flex-start">
+                    <li class="nav-item  d-none d-md-none d-lg-none d-sm-block">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item d-none d-md-none d-lg-none d-sm-block">
+                        <a class="nav-link" href="#">WORK</a>
+                    </li>
+                </ul>
+                <ul class="med-nav justify-content-flex-end w-100 d-none d-xs-none d-sm-none d-md-block d-xl-block">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
                 <img class="logo" width='105px' height='105px' src="img/logo.png">
-                    <ul class="lowerli d-flex justify-content-flex-end">
-                        <li class="nav-item d-none d-sm-block d-xl-block">
-                            <a class="nav-link" href="#">BLOG</a>
-                        </li>
-                        <li class="nav-item d-none d-sm-block d-xl-block ">
-                            <a class="nav-link" href="#">CONTACT</a>
-                        </li>
-                    </ul>
+                <div class="med-title d-none d-sm-none d-md-block">
+                <h2>codeup design</h2>
+                </div>
+                <ul class="lowerli d-flex justify-content-flex-end">
+                    <li class="nav-item d-none d-md-none d-lg-none d-sm-block">
+                        <a class="nav-link" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item d-none d-md-none d-lg-none d-sm-block">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
             </div>
-            <div class="row center-block text-center" id="nav-bar">
+            <div class="row center-block text-center d-md-none d-xl-none" id="nav-bar">
                 <h2>codeup design</h2>
                 <ul class="nav justify-content-center w-100 d-sm-none">
                     <li class="nav-item">
@@ -62,13 +79,21 @@
                     <h3>FROM PARK CITY, UTAH</h3>
                 </header>
                 <div class="row">
-                    <div class="col-sm-6 row justify-content-center" id="upperCircle">
+                    <div class="col-sm-6 d-md-none d-xl-none row justify-content-center" id="upperCircle">
                         <div class="rounded-circle">DESIGN</div>
                         <div class="rounded-circle">DEVELOP</div>
                     </div>
-                    <div class="col-sm-6 row justify-content-center" id="lowerCircle">
+                    <div class="col-sm-6 d-md-none d-xl-none row justify-content-center" id="lowerCircle">
                         <div class="rounded-circle">SUPPORT</div>
                         <div class="rounded-circle">HOST</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 d-md-block d-none d-sm-none justify-content-center" id="mid-view-lg-circles">
+                            <div class="rounded-circle">DESIGN</div>
+                            <div class="rounded-circle">DEVELOP</div>
+                            <div class="rounded-circle">SUPPORT</div>
+                            <div class="rounded-circle">HOST</div>
+                        </div>
                     </div>
                     <div class="col-sm-12 d-none d-sm-block d-md-none">
                         <hr>
@@ -76,11 +101,12 @@
                 </div>
             </div>
 
-            <div class="selected-work" style="margin-top: 75px"></div>
-            <p>SELECTED WORK</p>
+            <div class="selected-work" style="margin-top: 75px">
+                <p>SELECTED WORK</p>
+            </div>
 
             <div class="row">
-                <div class="col-12 col-sm-6" id="apple-image">
+                <div class="col-12 col-sm-6 col-md-4" id="apple-image">
                     <img class="justify-content-center" src="img/images/apple-ipad.jpg"
                          style="width: 250px; height: 150px;">
                     <div class="row d-none d-sm-block d-xl-block"
@@ -96,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class=col-sm-6 id="macbook">
+                <div class="col-sm-6 col-md-4" id="macbook">
                     <img class="d-none d-sm-block d-xl-block" src="img/images/macbook.jpg"
                          style="width: 250px; height: 150px">
                     <div class="row d-none d-sm-block d-xl-block"
@@ -114,7 +140,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class=col-sm-6 id="man">
+                <div class="col-sm-6 col-md-4" id="man">
                     <img class="d-none d-sm-block d-xl-block" src="img/images/man.jpg"
                          style="width: 250px; height: 150px">
                     <div class="row d-none d-sm-block d-xl-block"
@@ -131,7 +157,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-6" id="security">
+                <div class="col-sm-6 col-md-4" id="security">
                     <img class="d-none d-sm-block d-xl-block" src="img/images/security.jpg"
                          style="width: 250px; height: 150px">
                     <div class="row d-none d-sm-block d-xl-block"
@@ -162,8 +188,10 @@
             </div>
         </div>
     </div>
+<!--    <div class="popups">-->
+<!--        <p class="popups title col-m-3 d-none d-sm-none">THE LAST</p>-->
+<!--    </div>-->
 </div>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
