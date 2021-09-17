@@ -1,6 +1,8 @@
 html, body {
     background: lightgray;
+
 }
+
 
 #nav-bar h2 {
     font-family: "Abel";
@@ -131,6 +133,7 @@ p {
     background-color: rgba(0, 171, 169, 0.98);
     margin-left: 5px;
 }
+
 
 @media screen and (min-width:576px) {
 
