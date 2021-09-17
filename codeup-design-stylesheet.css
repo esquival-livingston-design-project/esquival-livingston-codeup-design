@@ -208,6 +208,10 @@ hr {
         transform: translate(-300%, 0%);
     }
 
+    .popups p {
+        font-family: "Abel";
+    }
+
     #nav-bar h2 {
         margin-right: 300px;
         margin-top: -30px;
@@ -253,7 +257,7 @@ hr {
         height: 105px;
         background-color: rgba(246, 91, 86, 0.98);
         border: .2em solid white;
-        margin-left: 200px;
+        margin-left: 140px;
         /*border-color: white;*/
     }
 
@@ -288,6 +292,64 @@ hr {
     .nav-link {
         padding: 5px;
     }
+
+    .mobile-phone {
+        padding-bottom: 15px;
+    }
+
+    .head {
+        padding-bottom: 15px;
+    }
+
+    .mobile-phone {
+        display: flex;
+
+    }
+
+    h6 {
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .mobile-comment {
+
+    }
+
+    .head {
+        display: flex;
+    }
+
+    .ipad {
+        display: flex;
+    }
+
+    #small-images {
+        /*margin-left: 550px;*/
+
+    }
+
+    .selected-work {
+       display: flex;
+    }
+
+    .last {
+        margin-left: 450px;
+    }
+
+    .tweetDiv i {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 20px;
+        padding-bottom: 10px;
+
+    }
+
+    .tweetDiv p {
+       text-align: left;
+
+    }
+
+
 }
 
 
